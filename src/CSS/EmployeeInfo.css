@@ -1,0 +1,113 @@
+.employee-details {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
+
+.back-button i {
+    margin-right: 0.5rem;
+}
+
+/* Star icon styling */
+.star-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-bottom: 1rem;
+}
+
+.star-icon.yellow {
+    color: gold;
+}
+
+.star-icon.gray {
+    color: #ccc;
+}
+
+/* Image container styling */
+.employee-details-image-container {
+    margin-bottom: 1rem;
+}
+
+.employee-details-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffc400;
+    transition: transform 0.3s;
+}
+
+.employee-details-image:hover {
+    transform: scale(1.1);
+}
+
+/* Employee details text styling */
+.employee-details h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-container{
+    margin: 0 auto;
+    max-width: 301px;
+}
+.text-container>p {
+    text-align: left;
+    color: #57606f;
+    font-size: 1.2rem;
+}
+.employee-details p strong {
+    font-weight: bold;
+}
+
+/* Map container styling */
+.leaflet-container {
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .employee-details {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .employee-details h1 {
+        font-size: 1.5rem;
+    }
+
+    .employee-details p {
+        font-size: 0.875rem;
+    }
+
+    .employee-details-image {
+        width: 100px;
+        height: 100px;
+    }
+}

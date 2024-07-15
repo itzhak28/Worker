@@ -1,0 +1,43 @@
+.stripe-container {
+    height: 30vh;
+    background: linear-gradient(45deg, #c6955d, #caa57a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.stripe-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .stripe-container {
+        height: 25vh;
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .stripe-container {
+        height: 20vh;
+        font-size: 1.5em;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stripe-container {
+        height: 15vh;
+        font-size: 1.2em;
+        margin: 10px;
+    }
+}
